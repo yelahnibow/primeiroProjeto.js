@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
-
 console.log('Trabalhando com listas')
 // const PR = 'Paraná'
 // const SP = 'São Paulo';
@@ -34,16 +23,14 @@ console.log(listaDestinos);
 console.log(listaDestinos[1], listaDestinos[0]);
 //------------------------------------------------------
 console.log(listaDeDestinos);
+const estaAcompanhada  = true;
 
-if (idadeComprador >= 18){
-    console.log("Comprador maior de idade.");
-    listaDestinos.splice(1,1)
-}else{
-    console.log("Não é maior de idade e não posso vender.")
+if (idadeComprador >= 18) {
+    console.log("Comprador maior de idadade");
+    listaDeDestinos.splice(1, 1); // removendo item
+}   else if (estaAcompanhada == true) {
+    console.log("Comprador está acompanhado");
+    listaDeDestinos.splice(1, 1); //removedo item
+}else {
+    console.log("Não é maior de idade e não posso vender");
 }
-
-
-
-    </script>
-</body>
-</html>

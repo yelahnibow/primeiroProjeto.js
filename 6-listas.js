@@ -3,7 +3,7 @@ console.log('Trabalhando com listas')
 // const SP = 'São Paulo';
 // const RJ = 'Rio de Janeiro';
 
-let new = 2;
+
 const listaDestinos = new Array(
     'Paraná',
     'São Paulo',
